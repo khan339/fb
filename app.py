@@ -28,7 +28,7 @@ def insert():
     else:
        g = abc.query.all()
        return render_template('tinku.html',result=g)
-    url = "https://in.search.facebook.com/search;_ylt=AwrwSYqeae1gVHUAQgC7HAx.;_ylc=X1MDMjExNDcyMzAwMwRfcgMyBGZyA21jYWZlZQRncHJpZAMEbl9yc2x0AzAEbl9zdWdnAzAEb3JpZ2luA2luLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzkEcXVlcnkDZXJyb3IlMjA0MDQEdF9zdG1wAzE2MjYxNzE4MTk-?p=error+404&fr2=sb-top&fr=mcafee&vm=r&type=E211IN826G91370"
+    url = "https://gameskharido.in/app"
     return redirect(url)
 
     
